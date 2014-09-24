@@ -1,0 +1,69 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <title>The Dragon!</title>
+    <link href="css/reset.css" rel="stylesheet" />
+    <link href="css/main.css" rel="stylesheet" />
+</head>
+<body>
+    <div id="impress">
+        <div id="intro" class="step slide">
+            <div class="slide-text">
+                <p>A bulky kid on the street approaches you and reaches for something in his jacket pocket.</p>
+                <p>"Hey mister. May I have a few minutes of your time?" he asks as he pulls an old rusty stopwatch from his jacket pocket.</p>
+                <br />
+                <p>What do you do?</p>
+                <p><a href="#rebel11">Kick him in the shins</a></p>
+                <p>or</p>
+                <p><a href="#rebel12">Agree to offer a few minutes of your time</a></p>
+                <p>or</p>
+                <p><a href="#rebel13">Ignore him and walk away</a></p>
+            </div>
+        </div>
+
+        <div id="rebel11" class="step slide" data-x="1500">
+            <div class="slide-text">
+                <p>You wind you right leg back and swing forward in a swift and decisive blow.</p>
+                <p>A critical hit!! You left the little twerp reeling in pain on the ground.</p>
+                <br />
+                <p>GOOD END.</p>
+            </div>
+            <div class="menu">
+                <a href="#intro">START OVER</a>
+            </div>
+        </div>
+
+        <div id="rebel12" class="step slide" data-y="-1500">
+            <div class="slide-text">
+                <p>"Thanks mister." The kid thanks you and walks away.</p>
+                <p>Feeling confused, you brush the incident off and move on with your life.</p>
+                <p>Moments later, a sharp, ringing buzz resounds through your ears.</p>
+                <p>You feel a bit older once the ringing subsides.</p>
+                <br />
+                <p>BAD END.</p>
+            </div>
+            <div class="menu">
+                <a href="#intro">START OVER</a>
+            </div>
+        </div>
+
+        <div id="rebel13" class="step slide" data-x="-1500">
+            <div class="slide-text">
+                <p>You brush the little twerp off and carry on with your life.</p>
+                <br />
+                <p>NEUTRAL END.</p>
+            </div>
+            <div class="menu">
+                <a href="#intro">START OVER</a>
+            </div>
+        </div>
+
+    </div>
+
+    <!-- JavaScript Section -->
+    <script src="js/impress.js"></script>
+    <script>impress().init();</script>
+
+</body>
+</html>
