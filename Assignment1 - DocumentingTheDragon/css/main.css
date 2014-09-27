@@ -65,6 +65,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#b5bdc8', end
 /* styling for slide text area */
 .slide .slide-text {
         height: 450px;
+
     }
 
 /* styling for menu section of each slide */

@@ -65,8 +65,26 @@
     </None>
   </ItemGroup>
   <ItemGroup>
+    <Content Include="css\main - Copy.css" />
     <Content Include="css\main.css" />
     <Content Include="css\reset.css" />
+    <Content Include="img\cut black.fw.png" />
+    <Content Include="img\cut blue.fw.png" />
+    <Content Include="img\cut green.fw.png" />
+    <Content Include="img\cut orange.fw.png" />
+    <Content Include="img\cut purple.fw.png" />
+    <Content Include="img\cut red.fw.png" />
+    <Content Include="img\cut white.fw.png" />
+    <Content Include="img\cut yellow.fw.png" />
+    <Content Include="img\wire black.fw.png" />
+    <Content Include="img\wire blue.fw.png" />
+    <Content Include="img\wire green.fw.png" />
+    <Content Include="img\wire orange.fw.png" />
+    <Content Include="img\wire purple.fw.png" />
+    <Content Include="img\wire red.fw.png" />
+    <Content Include="img\wire white.fw.png" />
+    <Content Include="img\wire yellow.fw.png" />
+    <Content Include="index - Copy.html" />
     <Content Include="index.html" />
     <Content Include="js\impress.js" />
     <Content Include="Web.config" />
@@ -74,6 +92,10 @@
   <ItemGroup>
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
+  <ItemGroup>
+    <WCFMetadata Include="Service References\" />
+  </ItemGroup>
+  <ItemGroup />
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
     <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>
