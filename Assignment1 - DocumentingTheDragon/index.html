@@ -8,106 +8,97 @@
 </head>
 <body>
     <div id="impress">
-        <div id="intro" class="step slide">
+        <div id="Title" class="step slide" data-y="-2000" data-z="2000">
             <div class="slide-text">
-                <p style="text-align:center;">NORTH</p>
-                <table cellpadding="0" border="0" style="margin-left:auto; margin-right:auto;">
-                    <tr>
-                        <td colspan="10"><img src="http://placehold.it/500x100/" alt="" style="display:block;" /></td>
-                    </tr>
-                    <tr>
-                        <td><img src="http://placehold.it/50x100/" alt="" style="display:block;" /></td>
-                        <td><img src="img/wire white.fw.png" alt="" style="display:block;" /></td>
-                        <td><img src="img/wire blue.fw.png" alt="" style="display:block;" /></td>
-                        <td><img src="img/wire purple.fw.png" alt="" style="display:block;" /></td>
-                        <td><img src="img/wire red.fw.png" alt="" style="display:block;" /></td>
-                        <td><img src="img/wire orange.fw.png" alt="" style="display:block;" /></td>
-                        <td><img src="img/wire yellow.fw.png" alt="" style="display:block;" /></td>
-                        <td><img src="img/wire green.fw.png" alt="" style="display:block;" /></td>
-                        <td><img src="img/wire black.fw.png" alt="" style="display:block;" /></td>
-                        <td><img src="http://placehold.it/50x100/" alt="" style="display:block;" /></td>
-                    </tr>
-                    <tr>
-                        <td colspan="10"><img src="http://placehold.it/500x100/" alt="" style="display:block;" /></td>
-                    </tr>
-                </table>
+                <h1>TITLE SCREEN</h1>
             </div>
             <div class="menu">
-                <p><a href="#slide2">LOOK LEFT</a></p>
-                <p><a href="#slide7">LOOK RIGHT</a></p>
+                <p><a href="#Intro">To intro screen</a></p>
             </div>
         </div>
 
-        <div id="slide2" class="step slide" data-rotate-y="90" data-x="-500" data-z="500">
+        <div id="Intro" class="step slide" data-y="-1000" data-z="2000">
             <div class="slide-text">
-                <p>WEST</p>
-                
+                <h1>Instructions</h1>
+                <p>how to play: do stuff</p>
             </div>
             <div class="menu">
-                <a href="#slide3">LOOK LEFT</a>
-                <a href="#slide4">GO THROUGH DOOR</a>
-                <a href="#intro">LOOK RIGHT</a>
+                <p><a href="#Start">Press Start to Continue</a></p>
             </div>
         </div>
 
-        <div id="slide3" class="step slide" data-rotate-y="180" data-z="1000">
+        <div id="Start" class="step slide" data-z="2000">
             <div class="slide-text">
-                <p>SOUTH</p>
+                <h1>Start Screen</h1>
+                <p>There is a door here.</p>
             </div>
             <div class="menu">
-                <a href="#slide2">LOOK RIGHT</a>
+                <p><a href="#A1">Enter Door</a></p>
             </div>
         </div>
 
-        <div id="slide4" class="step slide" data-rotate-y="90" data-x="-2000" data-z="500">
+        <div id="A1" class="step slide" data-rotate-y="0">
             <div class="slide-text">
-                <p>DEAD END</p>
+                <p>A1</p>
             </div>
             <div class="menu">
-                <a href="#slide2">GO BACK</a>
-                <a href="#slide5">TURN RIGHT</a>
+                <a href="#A4">Turn Left</a>
+                <a href="#A2">Turn Right</a>
             </div>
         </div>
 
-        <div id="slide5" class="step slide" data-x="-1500">
+        <div id="A2" class="step slide" data-rotate-y="-90" data-x="500" data-z="500">
             <div class="slide-text">
-                <p>Dead right down bog</p>
+                <p>A2</p>
             </div>
             <div class="menu">
-                <a href="#slide6">TURN RIGHT</a>
+                <a href="#A1">Turn Left</a>
+                <a href="#B1">Enter</a>
+                <a href="#A3">Turn Right</a>
             </div>
         </div>
 
-        <div id="slide6" class="step slide" data-rotate-y="-90" data-x="-1000" data-z="500">
+        <div id="A3" class="step slide" data-rotate-y="180" data-z="1000">
             <div class="slide-text">
-                <p>other east</p>
+                <p>A3</p>
+                <p>The door seems to have locked itself as you entered this place. no way back.</p>
             </div>
             <div class="menu">
-                <a href="#slide2">WHOOP WHOOP FLIP THAT BOOK CASE WHOOP WHOOP</a>
-                <a href="#slide7">Go Through</a>
+                <a href="#A2">Turn Left</a>
+                <a href="#A4">Turn Right</a>
             </div>
         </div>
 
-        <div id="slide7" class="step slide" data-rotate-y="-90" data-x="500" data-z="500">
+        <div id="A4" class="step slide" data-rotate-y="90" data-x="-500" data-z="500">
             <div class="slide-text">
-                <p>WHOLE NEW WORLD</p>
+                <p>A4</p>
             </div>
             <div class="menu">
-                <a href="#intro">BACK TO SQUARE ONE</a>
-                <a href="#slide2-0">GO UPSTAIRS!!!</a>
+                <a href="#A3">Turn Left</a>
+                <a href="#E4">Enter</a>
+                <a href="#A1">Turn Right</a>
             </div>
         </div>
 
-        <div id="slide2-0" class="step slide" data-rotate-y="-90" data-x="1500" data-z="500" data-y="-1000">
+        <div id="B1" class="step slide" data-rotate-y="-90" data-x="1500" data-z="500">
             <div class="slide-text">
-                <p>OH SHIT 2nd FLOOR!</p>
+                <p>B1</p>
             </div>
             <div class="menu">
-                <a href="#slide2-6">WARP TO ABOVE WEST HALL</a>
+                <a href="#B2">Go Left</a>
             </div>
         </div>
 
-        <div id="slide2-6" class="step slide" data-rotate-y="90" data-x="-1500" data-z="500" data-y="-1000">
+        <div id="B2" class="step slide" data-rotate-y="0" data-x="1000" data-z="-1500">
+            <div class="slide-text">
+                <p>B2</p>
+            </div>
+            <div class="menu">
+                <a href="#C4">Go Left</a>
+            </div>
+        </div>
+
+        <div id="slide2-4" class="step slide" data-rotate-y="90" data-x="-2000" data-z="500" data-y="-1000">
             <div class="slide-text">
                 <p>Above the west hall. [THIS IS ABOVE slide4 - DEAD END]</p>
                 <p>Watch out for the hole on the floor. long drop down.</p>
@@ -116,6 +107,7 @@
                 <a href="#slide4">slip and fall, loser</a>
             </div>
         </div>
+
 
     </div>
 

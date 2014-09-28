@@ -5,7 +5,7 @@ background: -webkit-gradient(radial, center center, 0, center center, 100%, colo
 background: -webkit-radial-gradient(center, ellipse cover,  #b5bdc8 0,#828c95 36%,#28343b 100%);
 background: -o-radial-gradient(center, ellipse cover,  #b5bdc8 0,#828c95 36%,#28343b 100%);
 background: -ms-radial-gradient(center, ellipse cover,  #b5bdc8 0,#828c95 36%,#28343b 100%);
-background: radial-gradient(ellipse at center,  #b5bdc8 0,#828c95 36%,#28343b 100%);
+background: radial-gradient(ellipse at center,  #cbc0e2 0,#b2ebae 36%,#5fdb21 100%);
 filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#b5bdc8', endColorstr='#28343b',GradientType=1 );
 }
 
@@ -73,4 +73,8 @@ div.menu {
     border-top: 2px solid black;
     padding-top: 25px;
     text-align: center;
+}
+
+img {
+    display:block;
 }
