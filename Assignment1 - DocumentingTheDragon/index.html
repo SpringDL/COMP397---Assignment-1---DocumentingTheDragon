@@ -8,7 +8,7 @@
 </head>
 <body>
     <div id="impress">
-        <div id="Title" class="step slide" data-y="-2000" data-z="2000">
+        <div id="Title" class="step slide" data-x="0"  data-y="-2000" data-z="2000">
             <div class="slide-text">
                 <h1>TITLE SCREEN</h1>
             </div>
@@ -17,7 +17,7 @@
             </div>
         </div>
 
-        <div id="Intro" class="step slide" data-y="-1000" data-z="2000">
+        <div id="Intro" class="step slide" data-x="0" data-y="-1000" data-z="2000">
             <div class="slide-text">
                 <h1>Instructions</h1>
                 <p>how to play: do stuff</p>
@@ -27,7 +27,7 @@
             </div>
         </div>
 
-        <div id="Start" class="step slide" data-z="2000">
+        <div id="Start" class="step slide" data-x="0" data-y="0" data-z="2000">
             <div class="slide-text">
                 <h1>Start Screen</h1>
                 <p>There is a door here.</p>
@@ -37,7 +37,7 @@
             </div>
         </div>
 
-        <div id="A1" class="step slide" data-rotate-y="0">
+        <div id="A1" class="step slide" data-rotate-y="0" data-x="0" data-y="0" data-z="0">
             <div class="slide-text">
                 <p>A1</p>
             </div>
@@ -47,7 +47,7 @@
             </div>
         </div>
 
-        <div id="A2" class="step slide" data-rotate-y="-90" data-x="500" data-z="500">
+        <div id="A2" class="step slide" data-rotate-y="-90" data-x="500" data-y="0" data-z="500">
             <div class="slide-text">
                 <p>A2</p>
             </div>
@@ -58,7 +58,7 @@
             </div>
         </div>
 
-        <div id="A3" class="step slide" data-rotate-y="180" data-z="1000">
+        <div id="A3" class="step slide" data-rotate-y="180" data-x="0" data-y="0" data-z="1000">
             <div class="slide-text">
                 <p>A3</p>
                 <p>The door seems to have locked itself as you entered this place. no way back.</p>
@@ -69,7 +69,7 @@
             </div>
         </div>
 
-        <div id="A4" class="step slide" data-rotate-y="90" data-x="-500" data-z="500">
+        <div id="A4" class="step slide" data-rotate-y="90" data-x="-500" data-y="0" data-z="500">
             <div class="slide-text">
                 <p>A4</p>
             </div>
@@ -80,7 +80,7 @@
             </div>
         </div>
 
-        <div id="B1" class="step slide" data-rotate-y="-90" data-x="1500" data-z="500">
+        <div id="B1" class="step slide" data-rotate-y="-90" data-x="1500" data-y="0" data-z="500">
             <div class="slide-text">
                 <p>B1</p>
             </div>
@@ -89,7 +89,7 @@
             </div>
         </div>
 
-        <div id="B2" class="step slide" data-rotate-y="0" data-x="1000" data-z="-1500">
+        <div id="B2" class="step slide" data-rotate-y="0" data-x="1000" data-y="0" data-z="-1500">
             <div class="slide-text">
                 <p>B2</p>
             </div>
@@ -98,13 +98,58 @@
             </div>
         </div>
 
-        <div id="slide2-4" class="step slide" data-rotate-y="90" data-x="-2000" data-z="500" data-y="-1000">
+        <div id="C1" class="step slide" data-rotate-y="0" data-x="0" data-y="0" data-z="-1500">
             <div class="slide-text">
-                <p>Above the west hall. [THIS IS ABOVE slide4 - DEAD END]</p>
-                <p>Watch out for the hole on the floor. long drop down.</p>
+                <p>C1</p>
+                <p>There be stairs here</p>
             </div>
             <div class="menu">
-                <a href="#slide4">slip and fall, loser</a>
+                <a href="#C4">Turn Left</a>
+                <a href="#J1">Go Upstairs</a>
+                <a href="#C2">Turn Right</a>
+            </div>
+        </div>
+
+        <div id="C2" class="step slide" data-rotate-y="-90" data-x="500" data-y="0" data-z="-1000">
+            <div class="slide-text">
+                <p>C2</p>
+                <p>The way back is blocked</p>
+            </div>
+            <div class="menu">
+                <a href="#C1">Turn Left</a>
+                <a href="#C3">Turn Right</a>
+            </div>
+        </div>
+
+        <div id="C3" class="step slide" data-rotate-y="180" data-x="0" data-y="0" data-z="-500">
+            <div class="slide-text">
+                <p>C3</p>
+                <p>There's an old painting of a tree stump in a forest of purple trees here.</p>
+            </div>
+            <div class="menu">
+                <a href="#C2">Turn Left</a>
+                <a href="#C4">Turn Right</a>
+            </div>
+        </div>
+
+        <div id="C4" class="step slide" data-rotate-y="90" data-x="-500" data-y="0" data-z="-1000">
+            <div class="slide-text">
+                <p>C4</p>
+                <p>Just an old bookshelf wall covered in dust...</p>
+                <p>There seems to be an interesting collection here.</p>
+                <p>1 - How to read. Vol 6. by Arjay B. Chadsworth</p>
+                <p>2 - War and Lemons: An Autobiography by Damian E. Finkle</p>
+                <p>3 - The Day Time Fell by Geri J. Heindrick </p>
+                <br />
+                <p>You have plenty of time. Maybe you should take a break and read something.</p>
+            </div>
+            <div class="menu">
+                <a href="#C3">Turn Left</a>
+                <a href="#C1">Turn Right</a>
+                <br /><br />
+                <a href="#Z1">Take book 1</a>
+                <a href="#Z2">Take book 2</a>
+                <a href="#D2">Take book 3</a>
             </div>
         </div>
 
