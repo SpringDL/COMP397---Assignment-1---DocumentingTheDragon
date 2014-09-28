@@ -43,24 +43,20 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#b5bdc8', end
 
 /* styling for slide paragraphs */
 .slide p {
-        margin-top: 15px;
-        margin-bottom: 30px;
-        line-height: 30px;
+        margin-top: 10px;
+        margin-bottom: 10px;
+        line-height: 20px;
     }
 
 /* styling for slide links */
-.slide a, .slide a:visited {
-        color: #071549;
+.ahoy {
+        color: #000000;
         text-decoration: none;
-        background-color: #abc;
+        background-color: #e2c3f3;
         padding: 5px;
         border-radius: 5px;
-        border: 1px solid #cde;
-    }
-
-.slide a:hover, .slide a:active {
-            background-color: #cde;
-        }
+        border: 1px solid #b6ff00;
+}
 
 /* styling for slide text area */
 .slide .slide-text {

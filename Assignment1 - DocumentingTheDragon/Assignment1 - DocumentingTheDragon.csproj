@@ -68,6 +68,7 @@
     <Content Include="css\main - Copy.css" />
     <Content Include="css\main.css" />
     <Content Include="css\reset.css" />
+    <Content Include="img\BotPanel.fw.png" />
     <Content Include="img\cut black.fw.png" />
     <Content Include="img\cut blue.fw.png" />
     <Content Include="img\cut green.fw.png" />
@@ -76,6 +77,13 @@
     <Content Include="img\cut red.fw.png" />
     <Content Include="img\cut white.fw.png" />
     <Content Include="img\cut yellow.fw.png" />
+    <Content Include="img\MidLeft.fw.png" />
+    <Content Include="img\MidRight.fw.png" />
+    <Content Include="img\TopPanel.fw.png" />
+    <Content Include="img\TopPanelG.fw.png" />
+    <Content Include="img\TopPanelOff.fw.png" />
+    <Content Include="img\TopPanelOn.fw.png" />
+    <Content Include="img\TopPanelR.fw.png" />
     <Content Include="img\wire black.fw.png" />
     <Content Include="img\wire blue.fw.png" />
     <Content Include="img\wire green.fw.png" />
